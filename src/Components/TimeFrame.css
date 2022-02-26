@@ -1,0 +1,55 @@
+/* Time Frame Options */
+.timeFrame-options{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.time-options{
+    padding: 10px 25px;
+  font-weight: 700;
+  color: grey;
+  background-color: rgb(237, 240, 243);
+  border-radius: 20px;
+}
+
+.time-options:hover  {
+  background-color: #f8c400;
+  color: black;
+  cursor: pointer;
+}
+
+.time-options:focus{
+  background-color: #FCEB74;
+  color: black;
+  outline: 1px solid #fae652;
+}
+
+/* Tier Options */
+
+
+.selectTier-options{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.tier-options{
+  padding: 10px 25px;
+font-weight: 700;
+color: grey;
+background-color: rgb(237, 240, 243);
+border-radius: 20px;
+}
+
+.tier-options:hover  {
+background-color: #f8c400;
+color: black;
+cursor: pointer;
+}
+
+.tier-options:focus{
+background-color: #FCEB74;
+color: black;
+outline: 1px solid #fae652;
+}

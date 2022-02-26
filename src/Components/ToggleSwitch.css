@@ -1,0 +1,248 @@
+
+
+.container{
+  padding:  0 20px;
+}
+
+.react-toggleSwitch-checkbox {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+  .react-toggleSwitch-label {
+    display: flex;
+    align-items: center;
+    float: right;
+    cursor: pointer;
+    width: 40px;
+    height: 23px;
+    background: #f8c400;
+    border-radius: 100px;
+    position: relative;
+    transition: background-color 0.2s;
+  }
+  
+  .react-toggleSwitch-label .react-toggleSwitch-button {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 18px;
+    height: 18px;
+    border-radius: 20px;
+    transition: 0.2s;
+    background: #fff;
+    box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+  }
+  
+  .react-toggleSwitch-checkbox:checked + .react-toggleSwitch-label .react-toggleSwitch-button {
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+  }
+  
+  .react-toggleSwitch-label:active .react-toggleSwitch-button {
+    width: 18px;
+  }
+
+
+.react-toggleSwitch2-checkbox {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+  .react-toggleSwitch2-label {
+    display: flex;
+    align-items: center;
+    float: right;
+    cursor: pointer;
+    width: 40px;
+    height: 23px;
+    background: #d1d1d1;
+    border-radius: 100px;
+    position: relative;
+    transition: background-color 0.2s;
+  }
+  
+  .react-toggleSwitch2-label .react-toggleSwitch2-button {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 18px;
+    height: 18px;
+    border-radius: 20px;
+    transition: 0.2s;
+    background: #fff;
+    box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+  }
+  
+  .react-toggleSwitch2-checkbox:checked + .react-toggleSwitch2-label .react-toggleSwitch2-button {
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+  }
+  
+  .react-toggleSwitch2-label:active .react-toggleSwitch2-button {
+    width: 18px;
+  }
+  
+  .toggle{
+    display: flex;
+    justify-content: space-evenly;
+    float: right;
+  }
+
+.toggle h4{
+  color: grey;
+}
+
+input[type='number'] {
+  width: 100%;
+  height: 70px;
+  margin-top: 10px;
+  padding-right: 58px;
+  text-align: right;
+  font-size: x-large;
+  font-weight: bolder;     
+  background-color: rgb(237, 240, 243);
+  border: solid 1px rgb(200, 200, 200);
+  border-radius: 15px;
+}
+
+input[type='number']::placeholder{
+  color: black;
+}
+
+
+.input-container .unit {
+  position: absolute;
+  display: block;
+  top: 94px;
+  right: 45px;
+  font-weight: bolder;
+  font-size: x-large;
+  background-color: rgb(237, 240, 243);
+  color: #000;
+  padding-left: 5px;
+  width: 45px;
+}
+
+.input-container .unit2 {
+  position: absolute;
+  display: block;
+  bottom: 216px;
+  right: 45px;
+  font-weight: bolder;
+  font-size: x-large;
+  background-color: rgb(237, 240, 243);
+  color: #000;
+  padding-left: 5px;
+  width: 45px;
+}
+
+.input-container p {
+  text-align: right;
+  color: grey;
+  font-weight: 625;
+}
+
+.options{
+  display: flex;
+  float: left;
+  margin: 6px 0;
+
+}
+
+
+.options-d, .options-d2, .options-useBal{
+  margin-right: 10px;
+  padding: 10px 30px;
+  font-weight: 700;
+  background-color: rgb(237, 240, 243);
+  border-radius: 12px;
+}
+
+.options-useBal{
+  background-color: #FFF9AA;
+}
+
+.options-useBal:hover, .options-d:hover, .options-d2:hover{
+  cursor: pointer;
+  background-color: #fcd135;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.btn{
+
+  width: 45%;
+  padding: 15px 20px;
+  border: solid 1px black;
+  border-radius: 15px;
+}
+
+.btn-dark{
+  background-color: #212121;
+  color: #fff;
+}
+
+.btn-dark:hover{
+  background-color: #000;
+}
+
+.btn-outline-dark{
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-outline-dark:hover{
+  background-color: #535353;
+  color: white;
+}
+
+.toggleDetails{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.toggleDetails button{
+  background-color: white;
+  border: solid 1px white;
+  cursor: pointer;
+}
+
+.toggleDetails p{
+  font-weight: 500;
+}
+
+.box {
+  width: 600px;
+  height: 150px;
+  overflow: hidden;
+  /* padding: 20px; */
+  background: white;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+  border-radius: 0 0 10px 10px;
+}
+.hide {
+  height: 0;
+}
+
+.hidden-notes{
+  padding: 20px;
+  line-height: 1.5em;
+
+}
+
+.hidden-notes ul{
+  padding: 20px;
+  font-weight: 550;
+  color: grey;
+}
